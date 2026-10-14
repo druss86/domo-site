@@ -27,3 +27,13 @@ h1{color:var(--gold)}h2{font-size:1.1rem;color:var(--gold);letter-spacing:.5px}
 .stripes{display:flex;height:4px}.stripes i{flex:1}
 .stripes i:nth-child(1){background:var(--red)}.stripes i:nth-child(2){background:var(--amber)}.stripes i:nth-child(3){background:var(--green)}.stripes i:nth-child(4){background:var(--blue)}
 footer{background:#07080af0;color:var(--muted);font-size:.85rem;text-align:center}footer .wrap{padding:22px 20px}
+/* uploader */
+.hidden{display:none!important}
+button.btn{cursor:pointer;font-size:1rem}button.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn.small{padding:6px 14px;font-size:.8rem;margin:0 0 0 auto}.btn.ghost{background:transparent;color:var(--gold)}
+.creator{display:flex;align-items:center;gap:14px;margin-bottom:8px}.creator img{border-radius:50%;border:2px solid var(--gold)}
+input[type=file]{color:var(--text);margin:8px 0}
+video{display:block;max-width:100%;max-height:420px;margin:12px 0;border:1px solid var(--line);border-radius:6px;background:#000}
+.notice{border:1px dashed var(--amber);padding:10px 14px;border-radius:6px;color:#e8dcc4}
+.progress{height:8px;background:#222;border-radius:4px;overflow:hidden;margin-top:14px}#bar{height:100%;width:0;background:var(--blue);transition:width .3s}
+.status{color:var(--gold);min-height:1.4em}

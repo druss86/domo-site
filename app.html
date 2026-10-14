@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Uploader | DOMO</title><link rel="icon" href="assets/favicon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Graduate&family=Inter:wght@400;600;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body><header><div class="wrap"><a class="brand" href="index.html"><img src="assets/domo-logo-128.png" alt="DOMO logo" width="44" height="44">DOMO</a><nav><a href="index.html">Home</a><a href="app.html">App</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></div></header><main class="wrap"><h1>DOMO Uploader</h1>
+<p class="lead">Send your own Call of Duty DMZ clips from this page to your TikTok inbox, then finish editing and posting inside the TikTok app.</p>
+<section class="card" id="login-card"><h2>Step 1: Connect TikTok</h2>
+<p>You'll be sent to TikTok to approve access to your basic profile and video uploads. Nothing is posted publicly by this site.</p>
+<button class="btn" id="login-btn">Continue with TikTok</button></section>
+<section class="card hidden" id="app-card">
+<div class="creator"><img id="avatar" alt="" width="56" height="56"><div><div class="muted">Uploading to TikTok account</div><strong id="nickname"></strong></div><button class="btn small ghost" id="logout-btn">Disconnect</button></div>
+<h2>Step 2: Choose a video</h2>
+<input type="file" id="file" accept="video/mp4,video/quicktime,video/webm">
+<video id="preview" controls playsinline class="hidden"></video>
+<p class="muted" id="file-info"></p>
+<p class="notice">After upload, the video appears in your <strong>TikTok inbox notifications</strong>. Open the notification in the TikTok app to finish editing and posting. Processing can take a few minutes.</p>
+<button class="btn" id="upload-btn" disabled>Upload to TikTok inbox</button>
+<div class="progress hidden" id="progress"><div id="bar"></div></div>
+<p id="status" class="status"></p></section></main><footer><div class="stripes"><i></i><i></i><i></i><i></i></div><div class="wrap">&copy; 2026 DOMO &middot; Effective date: October 13, 2026 &middot; <a href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms of Service</a><br><small>Not affiliated with or endorsed by TikTok, YouTube, or Activision.</small></div></footer><script src="tiktok-config.js"></script><script src="app.js"></script></body></html>
